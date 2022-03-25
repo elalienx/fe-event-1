@@ -1,5 +1,4 @@
 // Project files
-import placeholderImage from "assets/images/placeholder.jpg";
 import about1 from "assets/images/about1.jpg";
 import about2 from "assets/images/about2.jpg";
 import about3 from "assets/images/about3.jpg";
