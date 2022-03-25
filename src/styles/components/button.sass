@@ -1,0 +1,31 @@
+@import "styles/base/variables"
+
+.button 
+  @include standard-text-mobile
+  $size: 44px
+
+  display: inline-block
+  height: $size
+  margin-bottom: $space-medium
+  padding: 0 $space-big
+  background-color: $color-primary
+  color: white
+  border: none
+  font-weight: bold
+  text-decoration: none
+  line-height: $size
+  cursor: pointer
+
+  &:hover
+    text-decoration: none
+    background-color: lighten($color-primary, 10%)
+
+
+@media (min-width: $media-desktop)
+  .button
+    @include standard-text-desktop
+    $size: 48px
+
+    height: $size
+    line-height: $size
+    margin-bottom: $space-big

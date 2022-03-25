@@ -1,0 +1,65 @@
+@import "./variables"
+
+
+h1
+  font-size: 28px
+  line-height: 34px
+  margin-bottom: 18px
+
+h2
+  font-size: 21px
+  line-height: 25px
+  margin-bottom: 15px   
+
+h3
+  line-height: 21px
+  margin-bottom: 5px
+
+p
+  @include standard-text-mobile
+
+  margin-bottom: 15px
+  max-width: 634px // to avoid hard to read long sentences
+
+a
+  @include standard-text-mobile
+
+  color: $color-primary
+  text-decoration: none
+
+  &:hover
+    text-decoration: underline
+
+small
+  font-size: 11px
+  line-height: 14px
+  margin-bottom: 11px
+
+
+@media (min-width: $media-desktop)
+  h1
+    font-size: 37px
+    line-height: 45px
+    margin-bottom: 27px
+
+  h2
+    font-size: 26px
+    line-height: 31px
+    margin-bottom: 18px   
+
+  h3
+    line-height: 27px
+    margin-bottom: 8px
+
+  p
+    @include standard-text-desktop
+
+    margin-bottom: 18px
+
+  a
+    @include standard-text-desktop
+
+  small
+    font-size: 14px
+    line-height: 17px
+    margin-bottom: 14px

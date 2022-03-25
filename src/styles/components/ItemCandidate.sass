@@ -1,0 +1,21 @@
+@import "styles/base/variables"
+
+.item-candidate
+  img
+    $size: 36px
+
+    width: $size
+    height: $size
+    margin-right: $space-medium
+    object-fit: cover // to display the image correctly in case it was not cropped behorehand
+    background-color: $color-gray
+    border-radius: $size
+
+@media (min-width: $media-desktop)
+  .item-candidate
+    img
+      $size: $space-ultra
+
+      width: $size
+      height: $size
+      margin-right: $space-big
