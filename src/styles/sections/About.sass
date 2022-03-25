@@ -1,0 +1,19 @@
+@import "styles/base/_variables"
+	
+.about
+	.about-item
+		margin-bottom: $space-medium
+
+	.about-item img
+		display: none
+
+@media (min-width: $media-desktop) 
+	.about
+		.about-item
+			margin-bottom: $space-big
+			
+		.about-item img 
+			display: initial
+
+		.about-item:nth-child(odd)
+			flex-direction: row-reverse

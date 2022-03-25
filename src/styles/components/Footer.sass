@@ -1,29 +1,8 @@
 @import "styles/base/variables"
 
-#footer
+.footer
   overflow: auto
   background-color: $color-primary
   color: white
   line-height: $footer-height-mobile
-
-  ul
-    padding-left: 0
-
-  li
-    list-style-type: none
-
-  a
-    display: block // to display then vertically
-    color: $color-secondary
-  
-  .icon
-    margin-right: $space-small
-
-
-@media (min-width: $media-desktop)
-  #footer .container
-    margin: $space-medium auto
-
-    a
-      display: inline
-      margin-left: $space-medium
+  text-align: center
