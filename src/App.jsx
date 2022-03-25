@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <header className="hero">
+      <header id="hero">
         <div className="content-center">
           <h1 className="title">
             {header.title}
@@ -30,9 +30,14 @@ export default function App() {
             <br />
             {header.date}
           </h1>
+          <a className="button" href={eventLink}>
+            Register now
+          </a>
+          <br />
+          <a href="#about">Or learn more...</a>
         </div>
       </header>
-      <section className="about container">
+      <section id="about" className="container">
         <h2>About the event</h2>
         {/* Part 1 */}
         <article className="about-item">
@@ -71,7 +76,7 @@ export default function App() {
           </div>
         </article>
       </section>
-      <section className="call-to-action">
+      <section id="call-to-action">
         <div className="content-center">
           <h2>Book your ticket now!</h2>
           <a href={eventLink} className="button">
