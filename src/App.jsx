@@ -1,6 +1,7 @@
 // Project files
 import NavigationBar from "components/NavigationBar";
 import english from "data/english.json";
+import "styles/style.sass";
 
 export default function App() {
   const { header, body, footer } = english;
