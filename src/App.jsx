@@ -2,6 +2,7 @@
 import NavigationBar from "components/NavigationBar";
 import english from "data/english.json";
 import "styles/style.sass";
+import placeholderImage from "assets/images/placeholder.jpg";
 
 export default function App() {
   const { header, body, footer } = english;
@@ -26,7 +27,7 @@ export default function App() {
         <h2>About the event</h2>
         {/* Part 1 */}
         <article className="item-information">
-          <img src="" alt="" />
+          <img src={placeholderImage} alt="" />
           <div className="content">
             <p>{body.part1}</p>
           </div>
@@ -34,7 +35,7 @@ export default function App() {
 
         {/* Part 2 */}
         <article className="item-information">
-          <img src="" alt="" />
+          <img src={placeholderImage} alt="" />
           <div className="content">
             <p>{body.part2}</p>
           </div>
@@ -42,7 +43,7 @@ export default function App() {
 
         {/* Part 3 */}
         <article className="item-information">
-          <img src="" alt="" />
+          <img src={placeholderImage} alt="" />
           <div className="content">
             <p>{body.part3}</p>
           </div>
@@ -50,7 +51,7 @@ export default function App() {
 
         {/* Part 4 */}
         <article className="item-information">
-          <img src="" alt="" />
+          <img src={placeholderImage} alt="" />
           <div className="content">
             <h3>{body.part4.title}</h3>
             <ul>
@@ -63,7 +64,7 @@ export default function App() {
       </section>
       <section className="call-to-action">
         <div className="content-center">
-          Book your ticket now!
+          <p>Book your ticket now!</p>
           <a href={eventLink} className="button">
             Register now
           </a>
