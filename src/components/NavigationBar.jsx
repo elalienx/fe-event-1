@@ -6,12 +6,10 @@ export default function NavigationBar() {
     <nav id="navigation-bar">
       {/* Logo */}
       <div className="container">
-        <a href="#">
-          <img src={Logo} alt="Novare logo with a handwritting overlay" />
-        </a>
+        <img src={Logo} alt="Novare logo with a handwritting overlay" />
         <span className="spacer">{/* empty on purpose */}</span>
         <a href="https://frontend-course.novare.se" target="_blank">
-          Discover the course
+          Know the course
         </a>
         <a href="https://novare.se/potential" target="_blank">
           About us
