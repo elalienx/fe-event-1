@@ -9,10 +9,16 @@ export default function NavigationBar() {
         <img src={Logo} alt="Novare logo with a handwritting overlay" />
         <span className="spacer">{/* empty on purpose */}</span>
         <a href="https://frontend-course.novare.se" target="_blank">
-          Know the course
+          Läs mer om vår utbildning
         </a>
         <a href="https://novare.se/potential" target="_blank">
-          About us
+          Läs mer om oss
+        </a>
+        <a
+          href="https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
+          target="_blank"
+        >
+          Anmäl dig
         </a>
       </div>
     </nav>

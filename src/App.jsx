@@ -22,23 +22,24 @@ export default function App() {
           <h1 className="title">
             {header.title}
             <br />
-            +
+            och
             <br />
             {header.subtitle}
             <br />
-            =
+            när
             <br />
             {header.date}
+            <br />
+            var
+            <br />
+            Orangieret, Blaseiholmsgatan 4b
           </h1>
           <a className="button" href={eventLink}>
-            Register now
+            Anmäl dig nu
           </a>
-          <br />
-          <a href="#about">Or learn more...</a>
         </div>
       </header>
       <section id="about" className="container">
-        <h2>About the event</h2>
         {/* Part 1 */}
         <article className="about-item">
           <img src={about1} alt="" />
@@ -78,14 +79,16 @@ export default function App() {
       </section>
       <section id="call-to-action">
         <div className="content-center">
-          <h2>Book your ticket now!</h2>
+          <h2>Säkra din plats nu!</h2>
           <a href={eventLink} className="button">
-            Register now
+            Anmäl dig
           </a>
         </div>
       </section>
       <footer className="footer">
-        <div className="container">{footer}</div>
+        <div className="container">
+          <small>{footer}</small>
+        </div>
       </footer>
     </div>
   );
