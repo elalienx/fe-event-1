@@ -8,17 +8,17 @@ export default function App() {
   const { t } = useTranslation();
 
   // Properties
+  const headings = t("header:headings", { returnObjects: true });
+  const aboutText = t("about:sections", { returnObjects: true });
+
   const eventLink =
     "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107";
 
   // Components
-  // const Headings = header.headings.map((item, index) => (
-  //   <div key={index}>{item}</div>
-  // ));
-
-  // const TextBlocks = about.map((item, index) => (
-  //   <TextBlock key={index} item={item} />
-  // ));
+  const Headings = headings.map((item, index) => <div key={index}>{item}</div>);
+  const TextBlocks = aboutText.map((item, index) => (
+    <TextBlock key={index} item={item} />
+  ));
 
   return (
     <div className="App">
@@ -27,7 +27,7 @@ export default function App() {
       {/* Hero */}
       <header id="hero">
         <div className="content-center">
-          {/* <h1>{Headings}</h1> */}
+          <h1>{Headings}</h1>
           <a className="button" href={eventLink}>
             {t("header:button")}
           </a>
@@ -36,7 +36,7 @@ export default function App() {
 
       {/* About */}
       <section id="about" className="container">
-        {/* {TextBlocks} */}
+        {TextBlocks}
       </section>
 
       {/* Call to action */}
