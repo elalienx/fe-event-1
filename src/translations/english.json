@@ -1,26 +1,29 @@
 {
   "navigation": [
     {
-      "name": "Läs mer om vår utbildning",
+      "name": "About the course",
       "url": "https://frontend-course.novare.se"
     },
     {
-      "name": "Läs mer om oss",
-      "url": "https://novare.se/potential"
+      "name": "About us",
+      "url": "https://novare.se/potential/en"
     },
     {
-      "name": "Anmäl dig",
+      "name": "RSPV",
       "url": "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
     }
   ],
   "header": {
-    "title": "Find your next developer",
-    "subtitle": "Boost the innovative power of your company",
-    "date": "4 APRIL KL. 16.00",
-    "location": "Orangieret, Blaseiholmsgatan 4b",
-    "button": "Anmäl dig nu",
-    "connector": "+",
-    "last_connector": "="
+    "headings": [
+      "Find your next developer",
+      "and",
+      "Boost the innovative power of your company",
+      "on",
+      "APRIL 27 at 16:30",
+      "at",
+      "Orangieret, Blaseiholmsgatan 4b"
+    ],
+    "button": "RSPV"
   },
   "about": [
     {
