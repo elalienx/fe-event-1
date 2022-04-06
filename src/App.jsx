@@ -54,7 +54,15 @@ export default function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <small>{t("footer:text")}</small>
+          <small>
+            {t("footer:text")}
+            <a
+              href={t("footer:link:url", { returnObjects: true })}
+              target="_blank"
+            >
+              {t("footer:link:name")}
+            </a>
+          </small>
         </div>
       </footer>
     </div>

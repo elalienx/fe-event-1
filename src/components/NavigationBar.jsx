@@ -18,12 +18,12 @@ export default function NavigationBar() {
 
   // Methods
   function onLanguage() {
-    if (language === "en") {
-      i18n.changeLanguage("sv");
-      setLanguage("sv");
-    } else {
+    if (language === "sv") {
       i18n.changeLanguage("en");
       setLanguage("en");
+    } else {
+      i18n.changeLanguage("sv");
+      setLanguage("sv");
     }
   }
 

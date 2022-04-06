@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "links":[
+    "links": [
       {
         "name": "About the course",
         "url": "https://frontend-course.novare.se"
@@ -10,7 +10,7 @@
         "url": "https://novare.se/potential/en"
       },
       {
-        "name": "RSPV",
+        "name": "RSVP",
         "url": "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
       }
     ]
@@ -20,12 +20,12 @@
       "Find your next developer",
       "and",
       "Boost the innovative power of your company",
-      "on",
+      "when",
       "APRIL 27 at 16:30",
       "at",
-      "Orangieret, Blaseiholmsgatan 4b"
+      "Orangieret, Blasieholmsgatan 4b"
     ],
-    "button": "RSPV"
+    "button": "RSVP"
   },
   "about": {
     "sections": [
@@ -37,13 +37,13 @@
       },
       {
         "title": "",
-        "text": "There is a great demand for skills, especially in tech and many companies are looking with light and lantern for developers. At the same time, we have a lot of talent in Sweden whose expertise is not useful, despite an international background in the tech industry.",
+        "text": "There is a great demand for competence, especially in tech and many companies are looking with actively for developers. At the same time, we have a lot of talent in Sweden whose expertise is under utilized, despite an international background in the tech industry.",
         "bullets": [],
         "imageURL": "about2.jpg"
       },
       {
         "title": "",
-        "text": "How can we become better at making use of the skills that are available? In what way can increased diversity strengthen the business and boost innovation? What should you think about to create the best conditions for a diversified team?",
+        "text": "How can we become better at making use of the competence that is available? In what way can increased diversity strengthen the business and boost innovation? How do you to create the best conditions for a diversified team?",
         "bullets": [],
         "imageURL": "about3.jpg"
       },
@@ -61,11 +61,15 @@
     ]
   },
   "cta": {
-    "title": "Reserve your tickets now",
+    "title": "Reserve your spot now",
     "text": "",
-    "button": "RSPV"
+    "button": "RSVP"
   },
   "footer": {
-    "text": "Concrete tips, new contacts, drinks and snacks are promised."
+    "text": "Concrete tips, new contacts, drinks and snacks are promised. ",
+    "link": {
+      "name": "Learn more",
+      "url": "https://novare.se/potential/en"
+    }
   }
 }

@@ -17,13 +17,13 @@
   },
   "header": {
     "headings": [
-      "Hitta er nästa utvecklare",
+      "Hitta din nästa utvecklare",
       "och",
       "boosta innovationskraften i ditt företag",
       "när",
       "27 APRIL KL 16.30",
       "var",
-      "Orangieret, Blaseiholmsgatan 4b"
+      "Orangieret, Blasieholmsgatan 4b"
     ],
     "button": "Anmäl dig nu"
   },
@@ -31,7 +31,7 @@
     "sections": [
       {
         "title": "",
-        "text": "Välkommen till ett inspirerande samtal med konkreta tips för hur du kan boosta innovationskraften i företaget genom att bygga mer diversifierade team. Samtidigt kommer du få möjligheten att nätverka med nyexaminerade och hungriga utvecklare med internationell IT-bakgrund.",
+        "text": "Välkommen till ett inspirerande samtal med konkreta tips om hur du kan boosta innovationskraften i ditt företag genom att bygga mer diversifierade team. Samtidigt kommer du få möjligheten att nätverka med nyexaminerade och hungriga utvecklare med internationell IT-bakgrund.",
         "bullets": [],
         "imageURL": "about1.jpg"
       },
@@ -61,9 +61,13 @@
   "cta": {
     "title": "Säkra din plats nu!",
     "text": "",
-    "button": "RSPV"
+    "button": "RSVP"
   },
   "footer": {
-    "text": "Novare Potential startades 2016 med syftet att tillgodose arbetsmarknaden med kompetens och potential som finns hos nya svenskar. Bland annat driver Novare Potential en skräddarsydd snabbutbildning för personer med IT-bakgrund som på tre månader skolas om till utvecklare. För mer om utbildningen och kandidater, läs vidare här."
+    "text": "Novare Potential startades 2016 med syftet att tillgodose arbetsmarknaden med kompetens och potential som finns hos nya svenskar. Bland annat driver Novare Potential en skräddarsydd intensivutbildning för personer med IT-bakgrund som på fyra månader skolas om till utvecklare. För mer information om utbildningen och kandidater, ",
+    "link": {
+      "name": "läs vidare här.",
+      "url": "https://novare.se/potential"
+    }
   }
 }
