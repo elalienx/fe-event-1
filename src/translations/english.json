@@ -1,8 +1,24 @@
 {
+  "navigation": [
+    {
+      "name": "Läs mer om vår utbildning",
+      "url": "https://frontend-course.novare.se"
+    },
+    {
+      "name": "Läs mer om oss",
+      "url": "https://novare.se/potential"
+    },
+    {
+      "name": "Anmäl dig",
+      "url": "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
+    }
+  ],
   "header": {
     "title": "Find your next developer",
     "subtitle": "Boost the innovative power of your company",
-    "date": "4 APRIL KL. 16.00"
+    "date": "4 APRIL KL. 16.00",
+    "location": "somewhere...",
+    "button": "Anmäl dig nu"
   },
   "about": [
     {
@@ -35,5 +51,10 @@
       "imageURL": "about4.jpg"
     }
   ],
+  "cta": {
+    "title": "Reserve your tickets now",
+    "text": "",
+    "button": "RSPV"
+  },
   "footer": "Concrete tips, new contacts, drinks and snacks are promised."
 }

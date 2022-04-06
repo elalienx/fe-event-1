@@ -5,7 +5,7 @@ import english from "translations/english.json";
 import "styles/style.sass";
 
 export default function App() {
-  const { header, about, footer } = english;
+  const { navigation, header, about, cta, footer } = english;
 
   // Properties
   const eventLink =
@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <NavigationBar />
+      <NavigationBar item={navigation} />
 
       {/* Hero */}
       <header id="hero">
@@ -39,7 +39,7 @@ export default function App() {
             Orangieret, Blaseiholmsgatan 4b
           </h1>
           <a className="button" href={eventLink}>
-            Anmäl dig nu
+            {header.button}
           </a>
         </div>
       </header>
@@ -52,9 +52,9 @@ export default function App() {
       {/* Call to action */}
       <section id="call-to-action">
         <div className="content-center">
-          <h2>Säkra din plats nu!</h2>
+          <h2>{cta.title}</h2>
           <a href={eventLink} className="button">
-            Anmäl dig
+            {cta.button}
           </a>
         </div>
       </section>
