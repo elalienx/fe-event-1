@@ -26,17 +26,17 @@ export default function App() {
           <h1 className="title">
             {header.title}
             <br />
-            och
+            {header.connector}
             <br />
             {header.subtitle}
             <br />
-            när
+            {header.connector}
             <br />
             {header.date}
             <br />
-            var
+            {header.last_connector}
             <br />
-            Orangieret, Blaseiholmsgatan 4b
+            {header.location}
           </h1>
           <a className="button" href={eventLink}>
             {header.button}
