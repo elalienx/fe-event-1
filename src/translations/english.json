@@ -1,21 +1,39 @@
 {
   "header": {
-    "title": "Hitta er nästa utvecklare",
-    "subtitle": "boosta innovationskraften i ditt företag",
-    "date": "27 APRIL KL 16.30"
+    "title": "Find your next developer",
+    "subtitle": "Boost the innovative power of your company",
+    "date": "4 APRIL KL. 16.00"
   },
-  "body": {
-    "part1": "Välkommen till ett inspirerande samtal med konkreta tips för hur du kan boosta innovationskraften i företaget genom att bygga mer diversifierade team. Samtidigt kommer du få möjligheten att nätverka med nyexaminerade och hungriga utvecklare med internationell IT-bakgrund.",
-    "part2": "Det råder stor efterfrågan på kompetens, framförallt inom tech och många företag letar med ljus och lykta efter utvecklare. Samtidigt har vi en hel del talanger i Sverige vars kompetens inte kommer till nytta, trots internationell bakgrund inom techbranschen.",
-    "part3": "Hur kan vi bli bättre på att ta tillvara på den kompetens som finns? På vilket sätt kan ökad mångfald stärka affären och boosta innovation? Vad ska man tänka på för att skapa bäst förutsättningar för ett diversifierat team?",
-    "part4": {
-      "title": "Medverkande i panelen:",
-      "text": "Roshanak Fatahian, grundare av All of Us",
-      "list": [
-        "Moderator: Delal Apak",
-        "Roshanak Fatahian, grundare av All of Us"
-      ]
+  "about": [
+    {
+      "title": "",
+      "text": "Welcome to an inspiring conversation with concrete tips on how you can boost the innovative power of the company by building more diversified teams. At the same time, you will have the opportunity to network with newly graduated and hungry developers with an international IT background.",
+      "bullets": [],
+      "imageURL": "about1.jpg"
+    },
+    {
+      "title": "",
+      "text": "There is a great demand for skills, especially in tech and many companies are looking with light and lantern for developers. At the same time, we have a lot of talent in Sweden whose expertise is not useful, despite an international background in the tech industry.",
+      "bullets": [],
+      "imageURL": "about2.jpg"
+    },
+    {
+      "title": "",
+      "text": "How can we become better at making use of the skills that are available? In what way can increased diversity strengthen the business and boost innovation? What should you think about to create the best conditions for a diversified team?",
+      "bullets": [],
+      "imageURL": "about3.jpg"
+    },
+    {
+      "title": "Participating in the panel:",
+      "text": "",
+      "bullets": [
+        "XX, program manager Universal tech stars (working name, would be good with a name for the education)",
+        "Roshanak Fatahian, founder of All of UsMagnus Höij, union director of InnovationsföretagenXX",
+        "SEBx / Bambuser",
+        "XX, alumni Universal tech stars"
+      ],
+      "imageURL": "about4.jpg"
     }
-  },
-  "footer": "Novare Potential startades 2016 med syftet att tillgodose arbetsmarknaden med kompetens och potential som finns hos nya svenskar. Bland annat driver Novare Potential en skräddarsydd snabbutbildning för personer med IT-bakgrund som på tre månader skolas om till utvecklare. För mer om utbildningen och kandidater, läs vidare här."
+  ],
+  "footer": "Concrete tips, new contacts, drinks and snacks are promised."
 }
