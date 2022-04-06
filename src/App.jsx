@@ -4,11 +4,11 @@ import about2 from "assets/images/about2.jpg";
 import about3 from "assets/images/about3.jpg";
 import about4 from "assets/images/about4.jpg";
 import NavigationBar from "components/NavigationBar";
-import english from "data/english.json";
+import swedish from "translations/swedish.json";
 import "styles/style.sass";
 
 export default function App() {
-  const { header, body, footer } = english;
+  const { header, body, footer } = swedish;
 
   // Properties
   const eventLink =
