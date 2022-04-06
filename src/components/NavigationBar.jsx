@@ -1,13 +1,21 @@
+// NPM packages
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+
 // Project files
 import Logo from "assets/images/logo-white.png";
-import { useState } from "react";
 
 export default function NavigationBar({ item }) {
+  const { t } = useTranslation();
+
   // Local state
   const [language, setLanguage] = useState("en");
 
   // Properties
+  const linkText = t("navigation:links", { returnObjects: true });
   const LanguageLabel = language === "en" ? "English" : "Swedish";
+
+  console.log(linkText);
 
   // Methods
   function onLanguage() {
@@ -16,7 +24,7 @@ export default function NavigationBar({ item }) {
   }
 
   // Components
-  const Links = item.map((item, index) => (
+  const Links = linkText.map((item, index) => (
     <a key={index} target="_blank" href={item.url}>
       {item.name}
     </a>

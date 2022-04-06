@@ -1,18 +1,20 @@
 {
-  "navigation": [
-    {
-      "name": "Läs mer om vår utbildning",
-      "url": "https://frontend-course.novare.se"
-    },
-    {
-      "name": "Läs mer om oss",
-      "url": "https://novare.se/potential"
-    },
-    {
-      "name": "Anmäl dig",
-      "url": "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
-    }
-  ],
+  "navigation": {
+    "links": [
+      {
+        "name": "Läs mer om vår utbildning",
+        "url": "https://frontend-course.novare.se"
+      },
+      {
+        "name": "Läs mer om oss",
+        "url": "https://novare.se/potential"
+      },
+      {
+        "name": "Anmäl dig",
+        "url": "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
+      }
+    ]
+  },
   "header": {
     "headings": [
       "Hitta er nästa utvecklare",

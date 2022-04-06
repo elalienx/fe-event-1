@@ -1,18 +1,20 @@
 {
-  "navigation": [
-    {
-      "name": "About the course",
-      "url": "https://frontend-course.novare.se"
-    },
-    {
-      "name": "About us",
-      "url": "https://novare.se/potential/en"
-    },
-    {
-      "name": "RSPV",
-      "url": "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
-    }
-  ],
+  "navigation": {
+    "links":[
+      {
+        "name": "About the course",
+        "url": "https://frontend-course.novare.se"
+      },
+      {
+        "name": "About us",
+        "url": "https://novare.se/potential/en"
+      },
+      {
+        "name": "RSPV",
+        "url": "https://www.eventbrite.com/e/find-your-next-developer-registration-306425897107"
+      }
+    ]
+  },
   "header": {
     "headings": [
       "Find your next developer",

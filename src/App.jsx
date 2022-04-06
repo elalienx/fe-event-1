@@ -1,7 +1,9 @@
+// NPM packages
+import { useTranslation } from "react-i18next";
+
 // Project files
 import NavigationBar from "components/NavigationBar";
 import TextBlock from "components/TextBlock";
-import { useTranslation } from "react-i18next";
 import "styles/style.sass";
 
 export default function App() {
@@ -22,7 +24,7 @@ export default function App() {
 
   return (
     <div className="App">
-      {/* <NavigationBar item={navigation} /> */}
+      <NavigationBar />
 
       {/* Hero */}
       <header id="hero">
