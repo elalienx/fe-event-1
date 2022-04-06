@@ -4,8 +4,9 @@ import { useTranslation } from "react-i18next";
 
 // Project files
 import Logo from "assets/images/logo-white.png";
+import i18n from "scripts/i18n";
 
-export default function NavigationBar({ item }) {
+export default function NavigationBar() {
   const { t } = useTranslation();
 
   // Local state
@@ -15,12 +16,15 @@ export default function NavigationBar({ item }) {
   const linkText = t("navigation:links", { returnObjects: true });
   const LanguageLabel = language === "en" ? "English" : "Swedish";
 
-  console.log(linkText);
-
   // Methods
   function onLanguage() {
-    if (language === "en") setLanguage("sv");
-    else setLanguage("en");
+    if (language === "en") {
+      i18n.changeLanguage("sv");
+      setLanguage("sv");
+    } else {
+      i18n.changeLanguage("en");
+      setLanguage("en");
+    }
   }
 
   // Components
