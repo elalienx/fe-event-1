@@ -1,0 +1,18 @@
+@import "styles/base/_variables"
+
+@media (min-width: $media-desktop) 
+  .text-block
+    display: flex
+
+    img,
+    .content
+      width: 50%
+
+    .content
+      display: flex
+      flex-direction: column
+      justify-content: center
+      padding: $space-big
+
+  .text-block:nth-child(odd)
+    flex-direction: row-reverse
