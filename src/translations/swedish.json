@@ -54,5 +54,7 @@
       "imageURL": "about4.jpg"
     }
   ],
-  "footer": "Novare Potential startades 2016 med syftet att tillgodose arbetsmarknaden med kompetens och potential som finns hos nya svenskar. Bland annat driver Novare Potential en skräddarsydd snabbutbildning för personer med IT-bakgrund som på tre månader skolas om till utvecklare. För mer om utbildningen och kandidater, läs vidare här."
+  "footer": {
+    "text": "Novare Potential startades 2016 med syftet att tillgodose arbetsmarknaden med kompetens och potential som finns hos nya svenskar. Bland annat driver Novare Potential en skräddarsydd snabbutbildning för personer med IT-bakgrund som på tre månader skolas om till utvecklare. För mer om utbildningen och kandidater, läs vidare här."
+  }
 }

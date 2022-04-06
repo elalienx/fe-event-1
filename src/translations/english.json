@@ -61,5 +61,7 @@
     "text": "",
     "button": "RSPV"
   },
-  "footer": "Concrete tips, new contacts, drinks and snacks are promised."
+  "footer": {
+    "text": "Concrete tips, new contacts, drinks and snacks are promised."
+  }
 }
